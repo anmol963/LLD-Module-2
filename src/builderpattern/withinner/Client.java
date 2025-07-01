@@ -1,4 +1,4 @@
-package builderpattern;
+package builderpattern.withinner;
 
 public class Client {
     public static void main(String[] args) {

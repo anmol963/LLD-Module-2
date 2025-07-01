@@ -1,4 +1,4 @@
-package builderpattern;
+package builderpattern.withouter;
 
 public class Student {
 
