@@ -18,6 +18,16 @@ public class Client {
 //
 //        Student st = new Student(sb);
 
+        /* when I have normal constructors, I can create an object like this
+        But we have validations in place inside build method and we are bypassing that
+        Student.StudentBuilder sb = Student.getBuilder()
+                .setAge(24)
+                .setGradYear(2025)
+                .setBatch("Jan 2025")
+                .setCourse("Java");
+        Student st = new Student(sb);
+         */
+
          Student st = Student.getBuilder()
                 .setAge(24)
                 .setBatch("Jan 2025")

@@ -2,13 +2,13 @@ package builderpattern.withinner;
 
 public class Student {
 
-    int age;
-    String name;
-    String batch;
-    int gradYear;
-    String course;
+    private int age;
+    private String name;
+    private String batch;
+    private int gradYear;
+    private String course;
 
-    Student(StudentBuilder builder) {
+    private Student(StudentBuilder builder) {
         this.age = builder.age;
         this.name = builder.name;
         this.batch = builder.batch;
