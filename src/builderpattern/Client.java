@@ -4,12 +4,25 @@ public class Client {
     public static void main(String[] args) {
 //        Student st = new Student();
 
-        StudentBuilder sb = new StudentBuilder();
-        sb.setAge(20);
-        sb.setGradYear(2025);
-        sb.setBatch("Jan 2025");
+//        StudentBuilder sb = new StudentBuilder();
+//        sb.setAge(20);
+//        sb.setGradYear(2025);
+//        sb.setBatch("Jan 2025");
+//
+//        Student st = new Student(sb);
 
-        Student st = new Student(sb);
+//        StudentBuilder sb = Student.getBuilder()
+//                .setAge(24)
+//                .setGradYear(2024)
+//                .setBatch("Jan 2024");
+//
+//        Student st = new Student(sb);
+
+         Student st = Student.getBuilder()
+                .setAge(24)
+                .setBatch("Jan 2025")
+                .setGradYear(2025)
+                .build();
     }
 }
 
